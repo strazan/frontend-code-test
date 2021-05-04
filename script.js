@@ -34,7 +34,7 @@ const displayData = (data) => {
     heroContainer.insertAdjacentHTML(
         "afterbegin",
         `
-    <video autoplay="true" muted="true" loop src=${heroBanner.videoUrl}></video>
+    <video autoplay="true" muted="true" playsinline loop src=${heroBanner.videoUrl}></video>
     <div class="intro">
         <h1 class="title">${heroBanner.title}</h1>
         <p class="paragraph">${heroBanner.paragraph}</p>
